@@ -34,7 +34,6 @@ public class CeilingFan {
             speed++;
         }
     }
-
     public void reverseDirection() {
         if (direction == Directions.FORWARD) {
             direction = Directions.BACKWARD;
